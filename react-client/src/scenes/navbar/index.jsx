@@ -108,7 +108,7 @@ function Navbar() {
           <IconButton>
           <Help sx={{ fontSize: "25px" }} />
           </IconButton>
-          {role === 'admin' ? (
+          {role === 'admin' || role === 'manager' ? (
             <IconButton 
                 onClick={() => navigate('/dashboard')} 
                 sx={{ 
@@ -214,7 +214,7 @@ function Navbar() {
           <IconButton>
           <Help sx={{ fontSize: "25px" }} />
           </IconButton>
-          {role === 'admin' ? (
+          {role === 'admin' || role === 'manager' ? (
             <IconButton 
                 onClick={() => navigate('/dashboard')} 
                 sx={{ 

@@ -39,7 +39,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/profile/:id" element={<Profile />} />
             <Route path="/update/:id" element={<Update />} />
-            {role === "admin" ? (
+            {role === 'admin' || role === 'manager' ? (
             <Route element={<Layout />}>
              <Route path="/dashboard" element={<Dashboard />} />
              <Route path="/team" element={<Team />} />
