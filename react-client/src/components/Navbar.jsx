@@ -5,7 +5,7 @@ import { AppBar, Box, Typography, IconButton, InputBase, Toolbar, Menu, MenuItem
 import { LightModeOutlined, DarkModeOutlined, Menu as MenuIcon, Search, ArrowDropDownOutlined, CloseOutlined } from "@mui/icons-material";
 import { setMode, setLogout } from "../state";
 import FlexBetween from "./FlexBetween";
-import { useSearch } from "../SearchContext";
+import { useSearch } from "../searchContext";
 
 const apiUrl = process.env.REACT_APP_API_URL;
 

@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { CssBaseline } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme";
-import { SearchProvider } from "./SearchContext";
+import { SearchProvider } from "./searchContext";
 import Home from "./scenes/homePage";
 import Login from "./scenes/loginPage";
 import Profile from "./scenes/profilePage";

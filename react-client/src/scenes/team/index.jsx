@@ -4,7 +4,7 @@ import { Box, Button, Typography, useTheme} from "@mui/material";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import {AdminPanelSettingsOutlined, LockOpenOutlined, SecurityOutlined} from "@mui/icons-material";
 import Header from "../../components/Header";
-import { useSearch } from "../../SearchContext";
+import { useSearch } from "../../searchContext";
 
 const apiUrl = process.env.REACT_APP_API_URL;
 
